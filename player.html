@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Olympique Liffréen Futsal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <header>
+      <img class="ban img-fluid" src="style/images/banniere.jpg" alt="" />
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              width="50px"
+              height="50px"
+              src="style/images/logo.jpg"
+              alt="logo OLF"
+            />
+            Olympique Liffréen Futsal</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarDark"
+            aria-controls="navbarDark"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse show" id="navbarDark">
+            <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="team.html">Teams</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="player.html">Players</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="bg-dark">
+      <section class="player">
+        <h2 class="bg-primary text-white p-2 rounded">Liste des Joueurs</h2>
+        <div
+          id="carouselWithInterval"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="50000000">
+              <!-- ## fut-player-card ## -->
+              <div class="fut-player-card">
+                <div class="player-card-top">
+                  <div class="player-master-info">
+                    <div class="player-rating">
+                      <span>97</span>
+                    </div>
+                    <div class="player-position">
+                      <span>MD</span>
+                    </div>
+                    <div class="player-nation">
+                      <img
+                        src="style/images/france.png"
+                        alt="France"
+                        draggable="false"
+                      />
+                    </div>
+                    <div class="player-club">
+                      <img
+                        src="style/images/logo.jpg"
+                        alt="OLF"
+                        draggable="false"
+                      />
+                    </div>
+                  </div>
+                  <div class="player-picture">
+                    <img
+                      src="style/images/seb-card-removebg.png"
+                      alt="Juteau"
+                      draggable="false"
+                    />
+                  </div>
+                </div>
+                <div class="player-card-bottom">
+                  <div class="player-info">
+                    <!-- Player Name-->
+                    <div class="player-name">
+                      <span>S. JUTEAU</span>
+                    </div>
+                    <!-- Player Features-->
+                    <div class="player-features">
+                      <div class="player-features-col">
+                        <span>
+                          <div class="player-feature-value">97</div>
+                          <div class="player-feature-title">PAC</div>
+                        </span>
+                        <span>
+                          <div class="player-feature-value">95</div>
+                          <div class="player-feature-title">SHO</div>
+                        </span>
+                        <span>
+                          <div class="player-feature-value">94</div>
+                          <div class="player-feature-title">PAS</div>
+                        </span>
+                      </div>
+                      <div class="player-features-col">
+                        <span>
+                          <div class="player-feature-value">99</div>
+                          <div class="player-feature-title">DRI</div>
+                        </span>
+                        <span>
+                          <div class="player-feature-value">35</div>
+                          <div class="player-feature-title">DEF</div>
+                        </span>
+                        <span>
+                          <div class="player-feature-value">68</div>
+                          <div class="player-feature-title">PHY</div>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <!-- ## fut-player-card ## -->
+              <div class="fut-player-card">
+                <div class="player-card-top">
+                  <div class="player-master-info">
+                    <div class="player-rating">
+                      <span>97</span>
+                    </div>
+                    <div class="player-position">
+                      <span>AT</span>
+                    </div>
+                    <div class="player-nation">
+                      <img
+                        src="style/images/france.png"
+                        alt="France"
+                        draggable="false"
+                      />
+                    </div>
+                    <div class="player-club">
+                      <img
+                        src="style/images/logo.jpg"
+                        alt="OLF"
+                        draggable="false"
+                      />
+                    </div>
+                  </div>
+                  <div class="player-picture">
+                    <img
+                      src="style/images/clem-card-removebg.png"
+                      alt="Marquet"
+                      draggable="false"
+                    />
+                  </div>
+                </div>
+                <div class="player-card-bottom">
+                  <div class="player-info">
+                    <!-- Player Name-->
+                    <div class="player-name">
+                      <span>C. MARQUET</span>
+                    </div>
+                    <!-- Player Features-->
+                    <div class="player-features">
+                      <div class="player-features-col">
+                        <span>
+                          <div class="player-feature-value">97</div>
+                          <div class="player-feature-title">PAC</div>
+                        </span>
+                        <span>
+                          <div class="player-feature-value">95</div>
+                          <div class="player-feature-title">SHO</div>
+                        </span>
+                        <span>
+                          <div class="player-feature-value">94</div>
+                          <div class="player-feature-title">PAS</div>
+                        </span>
+                      </div>
+                      <div class="player-features-col">
+                        <span>
+                          <div class="player-feature-value">99</div>
+                          <div class="player-feature-title">DRI</div>
+                        </span>
+                        <span>
+                          <div class="player-feature-value">35</div>
+                          <div class="player-feature-title">DEF</div>
+                        </span>
+                        <span>
+                          <div class="player-feature-value">68</div>
+                          <div class="player-feature-title">PHY</div>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselWithInterval"
+            role="button"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselWithInterval"
+            role="button"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </section>
+    </main>
+    <aside></aside>
+    <!-- Footer -->
+    <footer class="text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn text-white btn-floating m-1 rounded-circle"
+            style="background-color: #3b5998"
+            href="#!"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+
+          <!-- Twitter -->
+          <a
+            class="btn text-white btn-floating m-1 rounded-circle"
+            style="background-color: #55acee"
+            href="#!"
+            role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+
+          <!-- Instagram -->
+          <a
+            class="btn text-white btn-floating m-1 rounded-circle"
+            style="background-color: #ac2bac"
+            href="#!"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Form -->
+        <section class="">
+          <form action="">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+              <!--Grid column-->
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong>Abonne toi à notre newsletter !</strong>
+                </p>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-5 col-12">
+                <!-- Email input -->
+                <div class="form-outline form-white mb-4">
+                  <input
+                    type="email"
+                    id="form5Example21"
+                    class="form-control"
+                  />
+                  <label class="form-label" for="form5Example21"
+                    >Adresse Email</label
+                  >
+                </div>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-auto">
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-outline-light mb-4">
+                  Envoyer
+                </button>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </form>
+        </section>
+        <!-- Section: Form -->
+
+        <!-- Section: Text -->
+        <section class="mb-4">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            distinctio earum repellat quaerat voluptatibus placeat nam, commodi
+            optio pariatur est quia magnam eum harum corrupti dicta, aliquam
+            sequi voluptate quas.
+          </p>
+        </section>
+        <!-- Section: Text -->
+      </div>
+      <!-- Grid container -->
+    </footer>
+    <!-- Footer -->
+
+    <script src="bootstrap.min.js"></script>
+  </body>
+</html>
