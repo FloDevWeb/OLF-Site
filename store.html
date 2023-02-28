@@ -21,17 +21,11 @@
   </head>
   <body>
     <header>
-      <img
-        class="ban img-fluid"
-        src="style/images/banniere.jpg"
-        alt="bannière OLF"
-      />
       <nav class="navbar navbar-expand-md navbar-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
             <img
-              width="50px"
-              height="50px"
+              class="logo rounded-circle"
               src="style/images/logo.jpg"
               alt="logo OLF"
             />
@@ -48,19 +42,19 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarDark">
+          <div class="collapse navbar-collapse ms-2 fs-5" id="navbarDark">
             <ul class="navbar-nav me-auto mb-2 mb-xl-0">
-              <li class="nav-item">
+              <li class="nav-item ms-2">
                 <a class="nav-link" href="index.html">Home</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item ms-2">
                 <a class="nav-link" href="team.html">Teams</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item ms-2">
                 <a class="nav-link" href="player.html">Players</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="about.html">About</a>
+              <li class="nav-item ms-2">
+                <a class="nav-link active" href="store.html">Store</a>
               </li>
             </ul>
           </div>
@@ -68,38 +62,32 @@
       </nav>
     </header>
 
-    <main></main>
+    <main class="container">
+      <div class="row d-flex">
+        <img
+          class="col-lg p-2"
+          src="style/images/store.jpeg"
+          alt="maillot OLF"
+        />
+        <div class="col-lg p-2 text-center align-self-center">
+          <p class="fs-1">Commande ton maillot dès maintenant !!!</p>
+          <a href="#" class="btn btn-primary">Aller à la boutique</a>
+        </div>
+      </div>
+    </main>
 
-    <footer class="text-center text-white">
-      <div class="container p-4">
-        <section class="mb-4">
-          <a
-            class="btn text-white btn-floating m-1 rounded-circle"
-            style="background-color: #3b5998"
-            href="https://www.facebook.com/OLFutsal/?locale=fr_FR"
-            role="button"
-            ><i class="fab fa-facebook-f"></i
-          ></a>
-
-          <a
-            class="btn text-white btn-floating m-1 rounded-circle"
-            style="background-color: #c42fad"
-            href="https://www.instagram.com/olympiqueliffreen/?hl=fr"
-            role="button"
-            ><i class="fab fa-instagram"></i
-          ></a>
-        </section>
-
+    <footer class="text-center text-white d-md-flex">
+      <div class="container col-md-6 p-4">
         <section class="">
           <form action="">
-            <div class="row d-flex justify-content-center">
+            <div class="justify-content-center">
               <div class="col-auto">
                 <p class="pt-2">
                   <strong>Tu veux nous rejoindre ? Contact nous !</strong>
                 </p>
               </div>
 
-              <div class="col-md-5 col-12">
+              <div class="col-auto">
                 <div class="form-outline form-white mb-4">
                   <input
                     type="email"
@@ -119,14 +107,40 @@
             </div>
           </form>
         </section>
+      </div>
+
+      <div class="container col-md-6 p-4">
+        <section>
+          <div class="col-auto">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3 text-secondary"></i>35340 Liffré</p>
+            <p>
+              <i class="fas fa-envelope me-3 text-secondary"></i>
+              secretariat.olympiqueliffreen@gmail.com
+            </p>
+            <p>
+              <i class="fas fa-phone me-3 text-secondary"></i> 06 80 14 67 40
+            </p>
+          </div>
+        </section>
 
         <section class="mb-4">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-            distinctio earum repellat quaerat voluptatibus placeat nam, commodi
-            optio pariatur est quia magnam eum harum corrupti dicta, aliquam
-            sequi voluptate quas.
-          </p>
+          <a
+            class="btn text-white btn-floating m-1 rounded-circle"
+            style="background-color: #3b5998"
+            href="https://www.facebook.com/OLFutsal/?locale=fr_FR"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+
+          <a
+            class="btn text-white btn-floating m-1 rounded-circle"
+            style="background-color: #c42fad"
+            href="https://www.instagram.com/olympiqueliffreen/?hl=fr"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
         </section>
       </div>
     </footer>
