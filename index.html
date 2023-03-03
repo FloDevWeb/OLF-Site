@@ -67,9 +67,7 @@
     <main class="row p-2">
       <div class="col-12 col-lg-8">
         <div class="row justify-content-around">
-          <article
-            class="present row justify-content-center align-items-center"
-          >
+          <article class="row justify-content-center align-items-center">
             <h2 class="bg-primary text-white p-2 rounded">Qui sommes nous ?</h2>
             <div class="d-flex">
               <img
@@ -92,33 +90,63 @@
             </div>
           </article>
 
-          <article
-            class="col-12 col-lg-6 justify-content-center align-items-center"
-          >
-            <h3 class="bg-primary text-white p-2 rounded">
-              Résultat du week-end
-            </h3>
-            <p class="ps-2">OLF A -- 3 - 2 -- TA RENNES 2</p>
-            <p class="ps-2">OLF B -- 4 - 1 -- NOYAL BRECE FC 2</p>
-            <p class="ps-2">OLF C -- 2 - 0 -- VITRE AS</p>
-          </article>
-          <article
-            class="col-12 col-lg-6 justify-content-center align-items-center"
-          >
-            <h3 class="bg-primary text-white p-2 rounded">
-              Agenda du week-end
-            </h3>
-            <p class="ps-2">OLF A -- x - x -- CHATEAUGIRON MASIA</p>
-            <p class="ps-2">OLF B -- x - x -- SERVON CS 2</p>
-            <p class="ps-2">OLF C -- x - x -- CHATEAUBOURG FUTSAL</p>
+          <article class="evenement m-2">
+            <h2 class="bg-warning text-white p-2 rounded">
+              Evènement : OLF Challenge 2023
+            </h2>
+            <div
+              id="carouselWithInterval"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                  <img
+                    src="style/images/annonce.jpg"
+                    class="d-block w-100 m-auto"
+                    alt="Slide 1"
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                  <img
+                    src="style/images/classement.jpg"
+                    class="d-block w-100 m-auto"
+                    alt="Slide 2"
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                  <img
+                    src="style/images/tableau-A.jpg"
+                    class="d-block w-100 m-auto"
+                    alt="Slide 3"
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#carouselWithInterval"
+                role="button"
+                data-bs-slide="prev"
+              >
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselWithInterval"
+                role="button"
+                data-bs-slide="next"
+              >
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            </div>
           </article>
         </div>
       </div>
       <aside class="col-12 col-lg-4 justify-content-center align-items-center">
-        <section class="actu">
+        <section class="actu mb-2">
           <h2 class="bg-primary text-white p-2 rounded">Dernières Actus</h2>
           <div
-            id="carouselWithInterval"
+            id="carouselWithInterval1"
             class="carousel slide"
             data-bs-ride="carousel"
           >
@@ -147,7 +175,7 @@
             </div>
             <a
               class="carousel-control-prev"
-              href="#carouselWithInterval"
+              href="#carouselWithInterval1"
               role="button"
               data-bs-slide="prev"
             >
@@ -155,7 +183,7 @@
             </a>
             <a
               class="carousel-control-next"
-              href="#carouselWithInterval"
+              href="#carouselWithInterval1"
               role="button"
               data-bs-slide="next"
             >
@@ -163,6 +191,20 @@
             </a>
           </div>
         </section>
+        <article class="justify-content-center align-items-center">
+          <h3 class="bg-primary text-white p-2 rounded">
+            Résultat du week-end
+          </h3>
+          <p class="ps-2">OLF A -- 3 - 2 -- TA RENNES 2</p>
+          <p class="ps-2">OLF B -- 4 - 1 -- NOYAL BRECE FC 2</p>
+          <p class="ps-2">OLF C -- 2 - 0 -- VITRE AS</p>
+        </article>
+        <article class="justify-content-center align-items-center">
+          <h3 class="bg-primary text-white p-2 rounded">Agenda du week-end</h3>
+          <p class="ps-2">OLF A -- x - x -- CHATEAUGIRON MASIA</p>
+          <p class="ps-2">OLF B -- x - x -- SERVON CS 2</p>
+          <p class="ps-2">OLF C -- x - x -- CHATEAUBOURG FUTSAL</p>
+        </article>
       </aside>
     </main>
 
